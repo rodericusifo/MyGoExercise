@@ -7,7 +7,7 @@ func main() {
 	for {
 		if i > 2022 {
 			break
-		} 
+		}
 		fmt.Println(i)
 		i++
 	}

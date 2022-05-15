@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	c := make(chan int)
 
-	c<- 12
+	c <- 12
 
 	fmt.Println(<-c)
 }

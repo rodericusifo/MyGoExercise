@@ -14,7 +14,7 @@ type Person struct {
 func main() {
 	s := `[{"first":"James","last":"Bond","age":32},{"first":"Miss","last":"Moneypenny","age":27}]`
 	fmt.Println(s)
-	
+
 	bs := []byte(s)
 	people := []Person{}
 

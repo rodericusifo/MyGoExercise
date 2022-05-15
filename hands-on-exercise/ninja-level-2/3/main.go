@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	a = 2
+	a     = 2
 	b int = 2
 )
 

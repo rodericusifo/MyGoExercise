@@ -54,10 +54,12 @@ func main() {
 	encoder := json.NewEncoder(os.Stdout)
 	err := encoder.Encode(users)
 	if err != nil {
-		fmt.Println( err)
+		fmt.Println(err)
 	}
 
-	fmt.Println();fmt.Println("---------------");fmt.Println()
+	fmt.Println()
+	fmt.Println("---------------")
+	fmt.Println()
 
 	s := `[{"first":"James","last":"Bond","age":32,"sayings":["Shaken, not stirred","Youth is no guarantee of innovation","In his majesty's royal service"]},{"first":"Miss","last":"Moneypenny","age":27,"sayings":["James, it is soo good to see you","Would you like me to take care of that for you, James?","I would really prefer to be a secret agent myself."]},{"first":"M","last":"Hmmmm","age":54,"sayings":["Oh, James. You didn't.","Dear God, what has James done now?","Can someone please tell me where James Bond is?"]}]`
 	fmt.Println(s)
@@ -67,7 +69,7 @@ func main() {
 	decoder := json.NewDecoder(strings.NewReader(s))
 	err = decoder.Decode(&users)
 	if err != nil {
-		fmt.Println( err)
+		fmt.Println(err)
 	}
 	fmt.Printf("%+v\n", users)
 }

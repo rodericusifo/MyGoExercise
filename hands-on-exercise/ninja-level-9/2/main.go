@@ -10,7 +10,7 @@ func (p *Person) Speak() {
 	fmt.Println("Hello My Name is", p.Name)
 }
 
-type IHuman interface{
+type IHuman interface {
 	Speak()
 }
 

@@ -19,18 +19,18 @@ func main() {
 		LastName:                "Ifo",
 		FavoriteIceCreamFlavour: []string{"Chocolate", "Blueberry"},
 	}
-	
+
 	fmt.Println(ifo.FirstName)
 	fmt.Println(ifo.LastName)
 
 	for i, v := range ifo.FavoriteIceCreamFlavour {
-		fmt.Printf("\t%v %v\n", i,v)
+		fmt.Printf("\t%v %v\n", i, v)
 	}
 
 	fmt.Println(krista.FirstName)
 	fmt.Println(krista.LastName)
 
 	for i, v := range krista.FavoriteIceCreamFlavour {
-		fmt.Printf("\t%v %v\n", i,v)
+		fmt.Printf("\t%v %v\n", i, v)
 	}
 }

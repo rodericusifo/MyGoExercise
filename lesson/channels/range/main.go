@@ -17,7 +17,7 @@ func main() {
 // send channel
 func send(c chan<- int) {
 	for i := 0; i < 10; i++ {
-		c<- i
+		c <- i
 	}
 	close(c)
 }

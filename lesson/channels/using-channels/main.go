@@ -16,7 +16,7 @@ func main() {
 
 // send channel
 func send(c chan<- int) {
-	c<- 42
+	c <- 42
 }
 
 // receive channel

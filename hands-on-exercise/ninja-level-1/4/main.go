@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type myType int
+
 var x myType
 
 func main() {

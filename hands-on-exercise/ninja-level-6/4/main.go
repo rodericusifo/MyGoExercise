@@ -13,10 +13,10 @@ func (p Person) Speak() {
 }
 
 func main() {
-	ifo := Person {
+	ifo := Person{
 		First: "Ifo",
-		Last: "Krista",
-		Age: 23,
+		Last:  "Krista",
+		Age:   23,
 	}
 	ifo.Speak()
 }

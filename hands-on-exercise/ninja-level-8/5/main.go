@@ -81,7 +81,7 @@ func main() {
 			fmt.Println("\t\t", i, saying)
 		}
 	}
-	
+
 	sort.Sort(ByLast(users))
 	fmt.Printf("Sorted By Last: %+v\n", users)
 
