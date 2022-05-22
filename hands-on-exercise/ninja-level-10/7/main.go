@@ -1,8 +1,8 @@
 package main
 
 import (
-	"math/rand"
 	"fmt"
+	"math/rand"
 	"sync"
 )
 
@@ -15,9 +15,9 @@ func main() {
 	receive(c)
 }
 
-func genNumbers(c chan int)  {
+func genNumbers(c chan int) {
 	wg.Add(10)
-	for i:= 1; i<= 10; i ++ {
+	for i := 1; i <= 10; i++ {
 		go func() {
 			defer wg.Done()
 			for i := 1; i <= 10; i++ {
